@@ -1,0 +1,62 @@
+#snake-field{
+    display: inline-block;
+}
+.snake-renew, .snake-start, .snake-start-nonactive {
+    width: 140px;
+    padding: 15px;
+    color: white;
+    background-color: green;
+    text-align: center;
+    cursor: pointer;
+    float: left; 
+}
+.snake-start, .snake-start-nonactive {
+    margin-right: 10px;
+}
+.snake-start-nonactive{
+    background-color: #005300;
+}
+
+.game-table{
+    border-collapse: collapse;
+    background-image: url(img/floar.png);
+}
+td.game-table-cell{
+    width: 15px;
+    height: 15px;                                  
+    border: 1px dotted #eee;
+}
+.snake-unit{
+    background-image: url(img/snake.png);
+}
+.food-unit{
+    background-image: url(img/food.png);
+}
+.problem-unit {
+    background-image: url(img/wall.png);
+}
+.buttons1{
+    display: inline-block;
+}
+.wrap{
+    margin: 30px auto 0;
+    text-align: center;
+}
+
+.buttons2{
+/*
+    display: block;
+    background-color: bisque;
+*/
+    -webkit-appearance: none;
+    -moz-appearance:none;
+    width: 100px;
+    height: 100px;
+    -webkit-border-radius:0;
+    -moz-border-radius:0;
+}
+
+/*
+.buttons2.active{
+    background-color: beige;
+}*/
